@@ -1,0 +1,23 @@
+.Home {
+    background-color: $orange;
+    min-height: 90vh;
+}
+
+.Section {
+    height: 400px ;
+    background-color: black;
+    width: 100%;
+}
+
+@for $i from 1 through 100 {
+    .f-#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
+.c-black {
+    color: black;
+}
+.lh-34 {
+    line-height: 34px;
+}
